@@ -75,7 +75,7 @@
 - (IBAction)firedPhoto2:(id)sender {
     PhotoViewerViewController* photoViewerViewController = [[PhotoViewerViewController alloc] initWithNibName:@"PhotoViewerViewController" bundle:nil];
     photoViewerViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    photoViewerViewController.image = [UIImage imageNamed:@"Photo1.jpg"];
+    photoViewerViewController.image = [UIImage imageNamed:@"Photo2.jpg"];
     photoViewerViewController.delegate = self;
     [self presentModalViewController:photoViewerViewController animated:YES];
     
@@ -84,7 +84,7 @@
 - (IBAction)firedPhoto3:(id)sender {
     PhotoViewerViewController* photoViewerViewController = [[PhotoViewerViewController alloc] initWithNibName:@"PhotoViewerViewController" bundle:nil];
     photoViewerViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    photoViewerViewController.image = [UIImage imageNamed:@"Photo1.jpg"];
+    photoViewerViewController.image = [UIImage imageNamed:@"Photo4.jpg"];
     photoViewerViewController.delegate = self;
     [self presentModalViewController:photoViewerViewController animated:YES];
     
